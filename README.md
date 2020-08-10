@@ -36,7 +36,6 @@ def get_count(inputStr):
 ```
 
 
-
 * https://www.codewars.com/kata/56747fd5cb988479af000028/train/python
 
 ```python
@@ -47,4 +46,16 @@ def get_middle(s):
         return s[x - 1] + s[x]
     else:
         return s[x]
+```
+
+
+* https://www.codewars.com/kata/5715eaedb436cf5606000381/train/python
+
+```python
+def positive_sum(arr):
+    sum = 0
+    for i in range(len(arr)):
+        if arr[i] >= 0:
+            sum += arr[i]
+    return sum
 ```
