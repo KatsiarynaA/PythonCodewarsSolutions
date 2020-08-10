@@ -67,3 +67,11 @@ def positive_sum(arr):
 def remove_char(s):
     return s[1:-1]
 ```
+
+
+* https://www.codewars.com/kata/55685cd7ad70877c23000102/train/python
+
+```python
+def make_negative(number):
+    return -abs(number)
+```
