@@ -23,3 +23,26 @@ def make_negative(number):
 def find_smallest_int(arr):
     return min(arr)
 ```
+
+
+* https://www.codewars.com/kata/5715eaedb436cf5606000381/train/python
+
+```python
+def positive_sum(arr):
+    sum = 0
+    for i in range(len(arr)):
+        if arr[i] >= 0:
+            sum += arr[i]
+    return sum
+```
+
+
+* https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python
+
+```python
+def even_or_odd(number):
+    if number % 2:
+        return "Odd"
+    else:
+        return "Even"
+```
