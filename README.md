@@ -75,3 +75,11 @@ def remove_char(s):
 def make_negative(number):
     return -abs(number)
 ```
+
+
+* https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/python
+
+```python
+def find_smallest_int(arr):
+    return min(arr)
+```
