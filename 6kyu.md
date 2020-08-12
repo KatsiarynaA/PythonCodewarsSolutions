@@ -23,3 +23,24 @@ def find_it(seq):
         if seq.count(item) % 2:
             return item
 ```
+
+
+* Sum of Digits / Digital Root
+* https://www.codewars.com/kata/541c8630095125aba6000c00/train/python
+
+```python
+# 1 solution
+def digital_root(n):
+    if n > 9:
+        sum = 0
+        while n != 0:
+            sum += n % 10
+            n //= 10
+        return digital_root(sum)
+    else:
+        return n
+
+# 2 solution
+def digital_root(n):
+    return n if n < 10 else digital_root(sum(map(int, str(n))))
+```
