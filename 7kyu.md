@@ -48,3 +48,15 @@ def disemvowel(string):
 def is_square(n):
     return n ** .5 % 1 == 0 if n >= 0 else False
 ```
+
+
+* Square Every Digit
+* https://www.codewars.com/kata/546e2562b03326a88e000020/train/python
+
+```python
+def square_digits(num):
+    s = ""
+    for item in str(num):
+        s += str(int(item) ** 2)
+    return int(s)
+```
