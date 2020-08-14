@@ -78,3 +78,16 @@ def find_smallest_int(arr):
 def repeat_str(repeat, string):
     return string * repeat
 ```
+
+
+* No zeros for heros
+* https://www.codewars.com/kata/570a6a46455d08ff8d001002/train/python
+
+```python
+def no_boring_zeros(n):
+    if n == 0:
+        return 0
+    while n % 10 == 0:
+        n /= 10
+    return n
+```
