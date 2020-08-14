@@ -76,3 +76,16 @@ def squares_needed(grains):
         grains_in_square *= 2
     return count_of_square
 ```
+
+
+* Halving Sum
+* https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/python
+
+```python
+def halving_sum(n):
+    s = n
+    while n != 1:
+        n //= 2
+        s += n
+    return s
+```
