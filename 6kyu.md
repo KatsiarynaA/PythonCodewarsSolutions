@@ -44,3 +44,23 @@ def digital_root(n):
 def digital_root(n):
     return n if n < 10 else digital_root(sum(map(int, str(n))))
 ```
+
+
+* Convert string to camel case (")
+* https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python
+
+```python
+def to_camel_case(text):
+    if text == "":
+        return ""
+    new_text = text[0]
+    for i in range(1, len(text)):
+        if text[i] == "_" or text[i] == "-":
+            new_text += ""
+        elif text[i - 1] == "_" or text[i - 1] == "-":
+            new_text += text[i].upper()
+            i += 1
+        else:
+            new_text += text[i]
+    return new_text
+```

@@ -1,7 +1,7 @@
 # 7 level of difficulty
 
 
-* The wheat/rice and chessboard problem
+* The wheat/rice and chessboard problem (*)
 * https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/train/python
 
 ```python
@@ -17,7 +17,7 @@ def squares_needed(grains):
 ```
 
 
-* Halving Sum
+* Halving Sum (*)
 * https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/python
 
 ```python
@@ -30,7 +30,7 @@ def halving_sum(n):
 ```
 
 
-* Round up to the next multiple of 5
+* Round up to the next multiple of 5 (*)
 * https://www.codewars.com/kata/55d1d6d5955ec6365400006d/train/python
 
 ```python
@@ -41,7 +41,7 @@ def round_to_next5(n):
 ```
 
 
-* Case swapping
+* Case swapping (*)
 * https://www.codewars.com/kata/5590961e6620c0825000008f/train/python
 
 ```python
