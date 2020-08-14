@@ -89,3 +89,14 @@ def halving_sum(n):
         s += n
     return s
 ```
+
+
+* Round up to the next multiple of 5
+* https://www.codewars.com/kata/55d1d6d5955ec6365400006d/train/python
+
+```python
+def round_to_next5(n):
+    while n % 5 != 0:
+        n += 1
+    return n
+```
