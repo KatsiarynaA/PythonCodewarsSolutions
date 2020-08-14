@@ -1,6 +1,66 @@
 # 7 level of difficulty
 
 
+* The wheat/rice and chessboard problem
+* https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/train/python
+
+```python
+def squares_needed(grains):
+    count_of_grains = 0
+    count_of_square = 0
+    grains_in_square = 1
+    while count_of_grains < grains:
+        count_of_square += 1
+        count_of_grains += grains_in_square
+        grains_in_square *= 2
+    return count_of_square
+```
+
+
+* Halving Sum
+* https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/python
+
+```python
+def halving_sum(n):
+    s = n
+    while n != 1:
+        n //= 2
+        s += n
+    return s
+```
+
+
+* Round up to the next multiple of 5
+* https://www.codewars.com/kata/55d1d6d5955ec6365400006d/train/python
+
+```python
+def round_to_next5(n):
+    while n % 5 != 0:
+        n += 1
+    return n
+```
+
+
+* Case swapping
+* https://www.codewars.com/kata/5590961e6620c0825000008f/train/python
+
+```python
+# 1 solution
+def swap(string):
+    return string.swapcase()
+
+# 2 solution
+def swap(string):
+    new_string = ""
+    for letter in string:
+        if letter.isupper():
+            new_string += letter.lower()
+        else:
+            new_string += letter.upper()
+    return new_string
+```
+
+
 * Vowel Count
 * https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/python
 
@@ -59,44 +119,4 @@ def square_digits(num):
     for item in str(num):
         s += str(int(item) ** 2)
     return int(s)
-```
-
-
-* The wheat/rice and chessboard problem
-* https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/train/python
-
-```python
-def squares_needed(grains):
-    count_of_grains = 0
-    count_of_square = 0
-    grains_in_square = 1
-    while count_of_grains < grains:
-        count_of_square += 1
-        count_of_grains += grains_in_square
-        grains_in_square *= 2
-    return count_of_square
-```
-
-
-* Halving Sum
-* https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/python
-
-```python
-def halving_sum(n):
-    s = n
-    while n != 1:
-        n //= 2
-        s += n
-    return s
-```
-
-
-* Round up to the next multiple of 5
-* https://www.codewars.com/kata/55d1d6d5955ec6365400006d/train/python
-
-```python
-def round_to_next5(n):
-    while n % 5 != 0:
-        n += 1
-    return n
 ```
