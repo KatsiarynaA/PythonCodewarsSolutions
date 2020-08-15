@@ -130,3 +130,20 @@ def high_and_low(numbers):
     list = [int(el) for el in numbers.split(" ")]
     return f"{max(list)} {min(list)}"
 ```
+
+
+* Mumbling
+* https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/python
+
+```python
+# 1 solution
+def accum(s):
+    new_s = ''
+    for i in range(len(s)):
+        new_s += s[i].upper() + s[i].lower() * i + "-"
+    return new_s[0:len(new_s) - 1]
+
+# 2 solution
+def accum(s):
+    return '-'.join(el.upper() + el.lower() * i for i, el in enumerate(s))
+```
