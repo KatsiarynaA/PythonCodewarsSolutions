@@ -156,3 +156,12 @@ def accum(s):
 def find_short(s):
     return min([len(el) for el in s.split()])
 ```
+
+
+* Exes and Ohs
+* https://www.codewars.com/kata/55908aad6620c066bc00002a/train/python
+
+```python
+def xo(s):
+    return s.lower().count("o") == s.lower().count("x")
+```
