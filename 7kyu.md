@@ -147,3 +147,12 @@ def accum(s):
 def accum(s):
     return '-'.join(el.upper() + el.lower() * i for i, el in enumerate(s))
 ```
+
+
+* Shortest Word
+* https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/python
+
+```python
+def find_short(s):
+    return min([len(el) for el in s.split()])
+```
