@@ -81,3 +81,12 @@ def to_camel_case(text):
             new_text += text[i]
     return new_text
 ```
+
+
+* Array.diff (")
+* https://www.codewars.com/kata/523f5d21c841566fde000009/train/python
+
+```python
+def array_diff(a, b):
+    return [num for num in a if num not in b]
+```
