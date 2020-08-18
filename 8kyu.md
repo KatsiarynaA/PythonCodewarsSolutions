@@ -80,7 +80,7 @@ def repeat_str(repeat, string):
 ```
 
 
-* No zeros for heros  (")
+* No zeros for heros (")
 * https://www.codewars.com/kata/570a6a46455d08ff8d001002/train/python
 
 ```python
@@ -90,4 +90,13 @@ def no_boring_zeros(n):
     while n % 10 == 0:
         n /= 10
     return n
+```
+
+
+* Draw stairs (")
+* https://www.codewars.com/kata/5b4e779c578c6a898e0005c5/train/python
+
+```python
+def draw_stairs(n):
+    return '\n'.join(" " * i + "I" for i in range(n))
 ```
