@@ -46,6 +46,23 @@ def digital_root(n):
 ```
 
 
+* Who likes it?
+* https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/python
+
+```python
+def likes(names):
+    n = len(names)
+    formats = {
+        0: "no one likes this",
+        1: "{} likes this",
+        2: "{} and {} like this",
+        3: "{}, {} and {} like this",
+        4: "{}, {} and {others} others like this"
+    }
+    return formats[min(n, 4)].format(*names, others = n - 2)
+```
+
+
 * Convert string to camel case (")
 * https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python
 
