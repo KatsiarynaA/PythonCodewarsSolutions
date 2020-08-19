@@ -63,6 +63,21 @@ def likes(names):
 ```
 
 
+* Create Phone Number
+* https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/python
+
+```python
+# 1 solution
+def create_phone_number(n):
+    lst = [str(el) for el in n]
+    return "(" + "".join(lst[0:3]) + ") " + "".join(lst[3:6]) + "-" + "".join(lst[6:10])
+
+# 2 solution
+def create_phone_number(n):
+    return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
+```
+
+
 * Convert string to camel case (")
 * https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python
 
