@@ -195,6 +195,15 @@ def DNA_strand(dna):
 ```
 
 
+* List Filtering
+* https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/python
+
+```python
+def filter_list(l):
+    return [el for el in l if type(el) == int]
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
