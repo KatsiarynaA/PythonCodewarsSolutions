@@ -167,6 +167,15 @@ def xo(s):
 ```
 
 
+* Descending Order
+* https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/python
+
+```python
+def descending_order(num):
+    return int("".join(sorted(str(num), reverse=True)))
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
