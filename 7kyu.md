@@ -176,6 +176,15 @@ def descending_order(num):
 ```
 
 
+* Jaden Casing Strings
+* https://www.codewars.com/kata/5390bac347d09b7da40006f6/train/python
+
+```python
+def to_jaden_case(string):
+    return " ".join(el.capitalize() for el in string.split())
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
