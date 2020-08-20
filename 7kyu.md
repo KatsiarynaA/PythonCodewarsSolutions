@@ -185,6 +185,16 @@ def to_jaden_case(string):
 ```
 
 
+* Complementary DNA
+* https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/python
+
+```python
+keys = {"A": "T", "T": "A", "C": "G", "G": "C"}
+def DNA_strand(dna):
+    return "".join([keys[value] for value in dna])
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
