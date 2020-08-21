@@ -78,6 +78,15 @@ def create_phone_number(n):
 ```
 
 
+* Stop gninnipS My sdroW!
+* https://www.codewars.com/kata/5264d2b162488dc400000001/train/python
+
+```python
+def spin_words(sentence):
+    return " ".join([word[::-1] if len(word) >= 5 else word for word in sentence.split()])
+```
+
+
 * Convert string to camel case (")
 * https://www.codewars.com/kata/517abf86da9663f1d2000003/train/python
 
