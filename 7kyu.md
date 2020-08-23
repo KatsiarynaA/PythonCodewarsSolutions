@@ -222,6 +222,16 @@ def is_isogram(string):
 ```
 
 
+* Sum of two lowest positive integers
+* https://www.codewars.com/kata/558fc85d8fd1938afb000014/train/python
+
+```python
+def sum_two_smallest_numbers(numbers):
+    numbers.sort()
+    return numbers[0] + numbers[1]
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
