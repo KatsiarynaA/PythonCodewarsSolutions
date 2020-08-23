@@ -204,6 +204,15 @@ def filter_list(l):
 ```
 
 
+* Beginner Series #3 Sum of Numbers
+* https://www.codewars.com/kata/55f2b110f61eb01779000053/train/python
+
+```python
+def get_sum(a, b):
+    return sum(range(min(a, b), max(a, b) + 1))
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
