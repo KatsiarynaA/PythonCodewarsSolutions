@@ -213,6 +213,15 @@ def get_sum(a, b):
 ```
 
 
+* Isograms
+* https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/python
+
+```python
+def is_isogram(string):
+    return len(set(string.lower())) == len(string)
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
