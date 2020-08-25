@@ -232,6 +232,19 @@ def sum_two_smallest_numbers(numbers):
 ```
 
 
+* Growth of a Population
+* https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/python
+
+```python
+def nb_year(p0, percent, aug, p):
+    years = 0
+    while p0 < p:
+        p0 += p0 * 0.01 * percent + aug
+        years += 1
+    return years
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
