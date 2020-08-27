@@ -1,6 +1,15 @@
 # 8 level of difficulty
 
 
+* Short Long Short (*)
+* https://www.codewars.com/kata/50654ddff44f800200000007/train/python
+
+```python
+def solution(a, b):
+    return a + b + a if len(a) < len(b) else b + a + b
+```
+
+
 * Multiply
 * https://www.codewars.com/kata/50654ddff44f800200000004/train/python
 
