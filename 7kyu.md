@@ -245,6 +245,15 @@ def nb_year(p0, percent, aug, p):
 ```
 
 
+* Is this a triangle?
+* https://www.codewars.com/kata/56606694ec01347ce800001b/train/python
+
+```python
+def is_triangle(a, b, c):
+    return a + b > c and a + c > b and c + b > a
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
