@@ -254,6 +254,19 @@ def is_triangle(a, b, c):
 ```
 
 
+* Find the next perfect square!
+* https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/python
+
+```python
+import math
+
+def find_next_square(sq):
+    if math.sqrt(sq) % 1 == 0:
+        return math.pow(math.sqrt(sq) + 1, 2)
+    return -1
+```
+
+
 * Number of People in the Bus (")
 * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/python
 
